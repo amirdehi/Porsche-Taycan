@@ -1,0 +1,84 @@
+body{
+    width: 1366px;
+    height: 768px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: hidden;
+}
+body main{
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-image: url("images/background.jpg");
+    background-position: center;
+    background-size: cover;
+    display: flex;
+}
+body main .logo{
+    position: absolute;
+    left: 45px;
+    top: 45px;
+}
+body main .header-name .title{
+    color: darkgrey;
+    font-family: "Segoe UI";
+    font-size: 60px;
+    position: absolute;
+    left: 160px;
+    top: 40px;
+}
+body main .header-name .subtitle{
+    color:dodgerblue;
+    font-family: "Ink Free";
+    font-size: 50px;
+    position: absolute;
+    left: 280px;
+    top: 85px;
+    transform: rotate(-10deg);
+}
+body main .car-properties{
+    position: absolute;
+    left: 45px;
+    top: 47%;
+    color: white;
+    font-family: Calibri;
+    font-size: 28px;
+}
+body main .car-properties span{
+    display: block;
+    font-family: Calibri Light;
+    font-size: 16px;
+    margin-top: -8px;
+    margin-bottom: 3px;
+}
+body main .car-properties .acceleration{
+    padding: 2px;
+}
+body main .car-properties .power{
+    padding: 2px;
+}
+body main .car-properties .top-speed{
+    padding: 2px;
+}
+body main .more-detail {
+    position: absolute;
+    bottom: 0;
+    right: 50%;
+    display: block;
+    color: white;
+    font-family: "Segoe UI";
+    transition: ease 0.5s;
+}
+body main .more-detail .line{
+    display: block;
+    margin: auto auto -15px;
+    width: 3px;
+    height: 30px;
+    background-color: white;
+}
+body main .more-detail:hover{
+    bottom: 10px;
+    transition: ease 0.5s;
+}
